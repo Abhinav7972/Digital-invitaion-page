@@ -37,9 +37,15 @@ section,footer
 
 #profile-img 
 {
-    background-image: url('/ad_page/my_anime.png');
-    background-size: cover;
-    background-position:  20% 30%;
+    overflow: hidden;
+}
+
+#profile-img img
+{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 20% 30%;
 }
 
 #personal-details h1
