@@ -1,0 +1,87 @@
+
+html
+{
+    background-color: gray;
+}
+
+
+
+body
+{
+    background-color: black;
+    color: white;
+    width: 30%;
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+
+header
+{
+    height: 250px;
+    border-radius: 10px 10px;
+}
+
+footer
+{
+    margin-bottom: 20px;
+    padding-bottom: 20px;  
+}
+
+
+section,footer
+{
+    margin-left: 10px;
+}
+
+#profile-img 
+{
+    background-image: url('/ad_page/my_anime.png');
+    background-size: cover;
+    background-position:  20% 30%;
+}
+
+#personal-details h1
+{
+margin-bottom: 0px;
+font-size: 45px;
+}
+
+#personal-details h3
+{
+ font-size: 20px;
+}
+
+#personal-details,#designation
+{
+    text-align: center;
+}
+
+#designation h3
+{
+color: yellow;
+}
+
+
+#designation button
+{
+    padding:  8px;
+    margin: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#designation :nth-child(3)
+{
+    background-color: rgb(68, 68, 221);
+}
+
+footer button
+{
+    background-color: yellow;
+    width: 300px;
+    border-radius: 10px;
+    padding : 10px;
+    margin-left:30px ;
+}
