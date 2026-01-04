@@ -16,6 +16,7 @@ border: 1px solid black;
 width: 600px;
 margin-top: 30px;
 margin: 20px;
+background-color: beige;
 }
 
 
@@ -41,11 +42,20 @@ iframe
 {
     margin-top: 10px;
     text-align: center;
-    margin: 10px;
+    margin: 20px;
+    padding: 10px;
+    line-height: 50px;
 }
 
 #socials button 
 {
     background-color: red;
     padding: 5px;
+    border-radius: 5px;
+}
+
+#socials button a
+{
+    text-decoration: none;
+    color: white;
 }
